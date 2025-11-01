@@ -1,10 +1,9 @@
 # Configuração básica para GitHub Pages + Minimal Mistakes
 title: "Meus Writeups CTF"
 description: "Writeups de HTB, CTFs e notas técnicas"
-url: "https://kelme108.github.io"   # substitua por seu usuário
-baseurl: ""                            # se for username.github.io fica vazio
-remote_theme: "mmistakes/minimal-mistakes" 
-theme: minimal-mistakes-jekyll
+url: "https://kelme108.github.io"
+baseurl: "/teste-writeups"   # nome exato do repositório
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Opções úteis
 plugins:
@@ -13,16 +12,17 @@ plugins:
 
 # Dados do autor (opcional)
 author:
-  name: "Seu Nome"
-  avatar: "/assets/img/exemplo.png"
+  name: "Kelme108"
+  avatar: "{{ site.baseurl }}/assets/img/exemplo.png"
   bio: "Pentester / CTF enthusiast"
 
 # Exibir opções de navegação (ver docs do tema para customização)
 navigation:
   - title: "Home"
-    url: /
+    url: "{{ site.baseurl }}/"
   - title: "Writeups"
-    url: /posts/
+    url: "{{ site.baseurl }}/posts/"
 
 # Ajustes de sintaxe de código
 markdown: kramdown
+
