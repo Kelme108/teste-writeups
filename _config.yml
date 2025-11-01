@@ -1,7 +1,7 @@
 # Configuração básica para GitHub Pages + Minimal Mistakes
 title: "Meus Writeups CTF"
 description: "Writeups de HTB, CTFs e notas técnicas"
-url: "https://SEU_USUARIO.github.io"   # substitua por seu usuário
+url: "https://Kelme108.github.io"   # substitua por seu usuário
 baseurl: ""                            # se for username.github.io fica vazio
 remote_theme: "mmistakes/minimal-mistakes" 
 theme: minimal-mistakes-jekyll
